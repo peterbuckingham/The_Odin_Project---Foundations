@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    border: 5px solid black;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(69, 69, 69);
+}
+
+.container > div {
+    background-color: blue;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 10px; /* Adds spacing between items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.container > div:hover {
+    background-color: rgb(0, 0, 114);
+}
+
+button {
+    padding: 20px;
+    border: 5px solid black;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: -100px;
+    background-color: rgb(76, 171, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+    padding: 25px;
+}
